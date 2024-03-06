@@ -94,12 +94,14 @@ body{
     width: 0px;
     top: 48px;
     left: 10px;
-    transform: rotate(-45deg);
+    transform: rotate(0);
     transform-origin: center;
     transition-property: width;
     transition-duration: .5s;
     transition-timing-function: ease;
 }
+
+
 
 
 
