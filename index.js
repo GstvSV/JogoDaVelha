@@ -90,9 +90,9 @@ function ganhou() {
         (spaces[1] && spaces[1] === spaces[4] && spaces[1] === spaces[7])
     ) {
         if(cont % 2 == 0){
-            titulo.innerHTML = "Jogador O vitorioso!"
+            titulo.innerHTML = "O ganhou!"
         }else{
-            titulo.innerHTML = "Jogador X vitorioso!"
+            titulo.innerHTML = "X ganhou!"
         }
         jogoContainer.style.pointerEvents = "none";
         riscar();
